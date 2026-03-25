@@ -1,4 +1,4 @@
-from selene import be, browser, by, have
+from selene import be, browser, by
 
 
 def test_github():

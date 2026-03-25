@@ -1,6 +1,7 @@
 import allure
 from selene import be, browser, by
 
+
 def test_dynamic_steps():
     with allure.step('Открываем главную страницу'):
         browser.open('https://github.com')
